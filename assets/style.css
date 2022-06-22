@@ -43,3 +43,10 @@ input {
   padding: 2.9rem;
   max-width: 800px;
 }
+
+.avatar {
+  border: 10px solid #f7b733;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
