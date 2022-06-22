@@ -14,3 +14,17 @@ body {
   min-height: 100vh;
 
 }
+
+
+input {
+  background-color: #fc4a1a;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+      0 14px 45px rgba(0, 0, 0, 0.2);
+  color: white;
+  font-family: inherit;
+  font-size: 0.9rem;
+  padding:1.2em;
+  margin-bottom: 2rem;
+}
