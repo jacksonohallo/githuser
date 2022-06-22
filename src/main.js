@@ -1,9 +1,24 @@
 const API_URL = "https://api.github.com/users/";
-const main = document.getElementsByClassName("main");
-const form = document.getElementsByClassName("form");
-const search = document.getElementsByClassName("search");
+
+const main = document.getElementById("main");
+const form = document.getElementById("form");
+const search = document.getElementById("search");
+
+
 getUser("jacksonohallo");
 
+async function getUser(username) {
+    const resp = await fetch(API_URL + username);
+    const respData = await resp.json();
+    createUserCard(respData);
+    getRepos(username);
+}
+
+async function getRepos(username) {
+  const resp = await fetch(API_URL + username + "/repos");
+  const respData = await resp.json();
+  addReposToCard(respData);
+}
 
 function addReposToCard(repos) {
   const reposEl = document.getElementById("repos");
@@ -16,6 +31,7 @@ function addReposToCard(repos) {
           reposEl.appendChild(repoEl);
       });
 }
+
 function createUserCard(user) {
   const cardHTML = `
       <div class="card">
