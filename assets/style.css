@@ -69,3 +69,16 @@ input {
   padding: 0;
   max-width: 400px;
 }
+
+
+.repo {
+  background-color: #fc4a1a;
+  border-radius: 5px;
+  display: inline-block;
+  color: white;
+  font-size: 0.7rem;
+  padding: 0.25rem 0.5rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+}
