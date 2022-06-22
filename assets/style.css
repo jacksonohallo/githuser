@@ -1,5 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
 
+
+@media screen and (max-width:800px){
+
+    .item{
+        position: relative;
+        width: 100%;
+        top:initial;
+    }
+}
+
+@media screen and (max-width:500px){
+    html{
+        font-size: 12px;
+    }
+}
+@media screen and ( max-height:300px){
+    .profile{
+        min-height: 40em;;
+    }
+}
+
 * {
     box-sizing: border-box;
 }
