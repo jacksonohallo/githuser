@@ -24,7 +24,7 @@ This is complete website that can used to search for any github user. Additional
 
 
  # Live-Link
-
+https://jacksonohallo.github.io/githuser/
 
 
 # Technology-Used
