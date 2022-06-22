@@ -15,9 +15,13 @@ body {
 
 }
 
+input::placeholder {
+  color: rgb(78, 9, 9);
+
+}
 
 input {
-  background-color: #fc4a1a;
+  background-color: #ec491c;
   border-radius: 10px;
   border: none;
   box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
@@ -27,4 +31,15 @@ input {
   font-size: 0.9rem;
   padding:1.2em;
   margin-bottom: 2rem;
+}
+
+.card {
+  background-color:  #ec491c;
+  background-image: linear-gradient(315deg, #fab62d 0%, #ec491c, 100%);
+  border-radius: 20px;
+  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+      0 15px 40px rgba(0, 0, 0, 0.1);
+  display: flex;
+  padding: 2.9rem;
+  max-width: 800px;
 }
