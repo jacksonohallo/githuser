@@ -23,8 +23,9 @@ This is complete website that can used to search for any github user. Additional
  6)Publisihing of the project on Github using Github-pages
 
 
+ 
  # Live-Link
-
+https://jacksonohallo.github.io/githuser/
 
 
 # Technology-Used
