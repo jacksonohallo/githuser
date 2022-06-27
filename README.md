@@ -30,15 +30,37 @@ https://jacksonohallo.github.io/githuser/
 
 # Technology-Used
 
-1. HTML
-2. CSS
-3. JAVASCRIPT
-4. API
+Used Visual Studio Code editor to write the HTML, CSS and Javascript codes
 
+HTML - to create the structure and foundation of the landing page.
 
+CSS - used css to style the website to look appealing to the user.
+
+Javascript - Used Javascript to create functions, conditions and loops to manipulate items on the webpage. Especially added event listeners that can listen and trigger a function when features like form submit, mouseover and button are triggered.
+
+Employed the help of www.w3schools.com to be able to add and remove class attributes. With the help of stackoverflow.com I was able to add the function to allow only one answer to be selcted at a time.
 # Known-Bugs
 
 The project works correctly.
+
+
+# Development
+
+Want to contribute? Excellent!
+
+To enhance or contribute on the existing project, follow these steps:
+
+Fork the repo
+Create a new branch (git checkout -b enhance-feature)
+Make the appropriate changes in the files
+Add changes to reflect the changes made
+Commit your changes (git commit -m 'enhanced feature')
+Push to the branch (git push origin enhance-feature)
+Create a Pull Request
+
+
+
+
 
 # License
 Copyright (c) [2022] [Jackson Otieno] Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
